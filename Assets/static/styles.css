@@ -1,0 +1,61 @@
+body{
+    font-family: Wakariru,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px;
+    padding: 10px 0 15px;
+    display: inline-block;
+}
+hr
+{
+    border: 0; /* Remove default border */
+    height: 2px; /* Set the height of the line */
+    background-color: #dbebeb; /* Set the color of the line */
+    margin: 5px 0; /* Add some margin for spacing */
+}
+.Section{
+    box-shadow: 5px 5px 5px#dbebeb;
+    border-radius: 3px;
+    padding: 3px,3px,3px,3px;
+}
+.sectionHeader{
+    padding:0px;
+    font-weight: lighter;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.Summary{
+    font-size:medium;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px;
+}
+.NameBox{
+    background-color: #059c90;
+    display:flex;
+    height: 80px;
+    border-radius: 5px;
+    align-items:flex-start;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    font-size:initial;
+}
+.myPicture{
+    display: flex;
+    height: 90%;
+    width: auto;
+    border-radius: 5px;
+    margin: 5px 5px 5px 5px;
+}
+.myName{
+    font-weight:200;
+    display:flex;
+    margin: 8px;
+    padding: 0px;
+    background-color:transparent;
+    color: #fff;
+    text-align:center;
+}
+/*footer{
+    
+    
+}*/
