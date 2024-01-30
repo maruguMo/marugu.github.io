@@ -6,10 +6,10 @@
     <title>My Resume</title>
     <link rel="stylesheet" type="text/css" href="./Assets/static/styles.css">
 </head>
-<body>
+<body style="background-repeat: no-repeat; background-position:center; background-size:auto;">
     <div class="NameBox">
-        <a class="myPicture" href="/contact.html"><img 
-        src="./Assets/Pictures/Marugu.jpg" 
+        <a class="myPicture" href="/contact.html">
+        <img src="./Assets/Pictures/Marugu.jpg" 
         alt="marugus picture"></a>
         <h2 class="myName">
             ERASTUS MARUGU MBURU
@@ -91,5 +91,13 @@
             </a>
         </h5>
     </footer>
+    <script src= "https://unpkg.com/popper.js@1/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@4"> </script>
+    <script>
+        tippy('.link',{placement: 'top',})
+        var testUpper=document.getElementById("test").innerText;
+        var toUpper=testUpper.toUpperCase();
+        //alert(toUpper);
+    </script>
 </body>
 </html>
